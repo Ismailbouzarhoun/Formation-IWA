@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Formulaire preinscription</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="post" action="traitement.php">
+<h4 id="entete">Formulaire de candidature a la formation IWA (Pre-inscription)</h5>
+<p>Vous etes invite a fournir les informations ci-dessus: </p>
+<label>Nom</label></br>
+<input type="text" class="text_input"></br></br></br>
+<label>Prenom</label></br>
+<input type="text" class="text_input"></br></br></br>
+<label>Telephone</label></br>
+<input type="text" class="text_input"></br></br></br>
+<p>Dernier diplome Obtenu </br>
+    <select name="pays" id="diplome">
+        <option value="france">--Veuillez choisir une option--</option>
+        <option value="france">LST</option>
+        <option value="espagne">LP</option>
+        <option value="italie">LF</option>
+    </select>
+</p>
+<label>Etablissement, ville et pays</label></br>
+<input type="text" class="text_input"></br></br></br>
+<label>Filliere</label></br>
+<input type="text" class="text_input"></br></br></br>
+<label>Annee d'obtention</label></br>
+<input type="number" class="text_input"></br></br></br>
+<label>Email</label></br>
+<input type="email" class="text_input"></br></br></br>
+<label>CV(pdfile < 5MB)</label></br>
+<input type="file" class="file"></br>
+<p>Releves des notes de la derniere annee d'etudes
+<label>(Releve1< 5MB)</label></br>
+<input type="file" class="file">
+</p>
+<p>Releves des notes de l'avant derniere annee d'etudes
+<label>(Releve < 5MB)</label></br>
+<input type="file" class="file">
+</p></br>
+<p id="p_button">
+<button type="submit" name="Envoyer" id="button">Envoyer</button>
+</p>
+</form>
+</body>
+</html>
