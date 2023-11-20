@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import univ.iwa.model.Person;
 import univ.iwa.repository.PersonRepository;
-
 @RestController
 public class PersonController {
 	@Autowired PersonRepository personRepository;
