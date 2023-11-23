@@ -30,4 +30,8 @@ public class Noeud{
             filsDroit.ajoute(v);
         }
     }
+
+    public String toString() {
+        return ("("+valeur+";"+filsGauche+";"+filsDroit);
+    }
 }
