@@ -1,0 +1,13 @@
+Nombre de ligne : 6
+Nombre de mots : 12
+les dix mots les plus freq : 
+trwertert : 1
+ttg : 1
+ef : 1
+rfgasdfgsd : 1
+sfsdf : 1
+sfgds : 1
+dgdfg : 1
+s : 1
+f : 1
+sfsd : 1

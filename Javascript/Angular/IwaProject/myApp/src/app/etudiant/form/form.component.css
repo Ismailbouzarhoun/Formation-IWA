@@ -1,0 +1,17 @@
+.form-control{
+    margin:10px;
+    margin-left:100px;
+    width:60%;
+}
+
+h3{
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+#btnvalider{
+    float:right;
+    margin:10px;
+    margin-right:100px;
+}

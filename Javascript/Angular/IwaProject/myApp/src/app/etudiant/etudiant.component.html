@@ -1,0 +1,17 @@
+<div>search <input (keyup)="filterData()" type="text" [(ngModel)]="filterName"><button id="add" (click)="open()" class="btn btn-primary">+</button></div>
+<table id="myTable" class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let etudiant of etudiants">
+        <td>{{etudiant.id}}</td>
+        <td>{{etudiant.nom}}</td>
+        <td>{{etudiant.age}}</td>
+      </tr>
+    </tbody>
+  </table>

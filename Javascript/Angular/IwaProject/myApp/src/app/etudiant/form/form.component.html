@@ -1,0 +1,14 @@
+<h3>Ajouter un etudiant</h3>
+<form [formGroup]="formEtudiant">
+    <div class="form-group" (ngSubmit)="valider">
+        <input formControlName="id" type="text" class="form-control" id="id" placeholder="id">
+    </div>
+    <div class="form-group">
+        <input formControlName="nom" type="text" class="form-control" id="nom" placeholder="nom">
+    </div><div class="form-group">
+        <input formControlName="age" type="text" class="form-control" id="age" placeholder="age">
+    </div>
+    <div class="form-group">
+        <button id="btnvalider" type="submit" class="btn btn-primary" (click) = "valider()">valider</button>
+    </div>
+</form>
