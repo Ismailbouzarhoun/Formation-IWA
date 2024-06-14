@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col"><app-loupe #idLoupe></app-loupe>Id</th>
+        <th scope="col"><app-loupe #nomLoupe></app-loupe>Nom</th>
+        <th scope="col"><app-loupe #ageLoupe></app-loupe>age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let etudiant of etudiants">
+    <td>{{etudiant.id}}</td><td>{{etudiant.nom}}</td><td>{{etudiant.age}}</td>
+    <td> <img class="delete" src="./assets/images/delete.jpeg" (click)="deleteEtudiant(etudiant)" alt=""></td>
+    </tr>
+    </tbody>
+</table>

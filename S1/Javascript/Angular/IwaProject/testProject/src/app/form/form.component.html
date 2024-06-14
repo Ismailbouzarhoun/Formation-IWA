@@ -1,0 +1,16 @@
+<form [formGroup]="formData">
+    <div class="form-row">
+        <div class="col">
+            <input formControlName="firstName" type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <input formControlName="lastName" type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col">
+            <input formControlName="age" type="text" class="form-control" placeholder="Age">
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-primary" (click)="sendData()" [disabled]="!formData.valid">send</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,40 @@
+====================================================
+Site web de IWA développé avec HTML-CSS-PHP-MySQL :
+====================================================
+Le site web doit être hébergé en ligne 
+https://www.nom-prenom.com
+
+PARTIE STATIQUE
+---------------
+- Un contenu riche, propre et bien structuré avec des menus
+- Un template ergonomique avec bootstrap ou autres
+- Un slider pour les nouveautés et les événements à la page d’accueil
+- Une galerie photos
+- Espaces étudiants et enseignants protégés par login et mot de passe (un plus d’authentification avec l’API de google est souhaité)
+- Connexion avec une page facebook (API) pour afficher les postes de cette page
+- Liens vers les réseaux sociaux
+- Un pied de page qui contient entre autres la carte d’accès Google Map
+
+BASE DE DONNEES
+---------------
+- Structure de base de données qui gère les étudiants (des différentes promotions), les enseignants, les matières, les notes et les attestations 
+- Script de création de la base de données MySQL
+
+PARTIE DYNAMIQUE
+----------------
+- Interfaces pour la manipulation (saisie, modification, suppression et recherche) des étudiants, des enseignants et des notes. (PHP-MySQL)
+- Système de demande et de génération des attestations de scolarité et des relevés des notes
+- Générateur d’invitations pour un événement.
+- Espace administration pour
+  o	Upload et Download des listes des étudiants et des notes des différentes matières 
+  o	Génération des listes des étudiants et des relevés de notes
+  o	Récupération des listes des notes, des attestations de réussite,…
+  o	Création des événements (en option)
+
+A la fin, une préparation d'une vidéo de 3 à 5 minutes pour la présention du 
+site web pour un client ou un recruteur.
+
+Bonne chance
+ 
+
+

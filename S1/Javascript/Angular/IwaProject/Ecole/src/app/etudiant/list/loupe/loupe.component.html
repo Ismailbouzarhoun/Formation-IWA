@@ -1,0 +1,5 @@
+<div (mouseover)="afficherInput()" (mouseout)="masquerInput()">
+    <img src="./assets/images/loupe.png" >
+    <input id="search" type="text" class="form-control" placeholder="Chercher"
+    [(ngModel)]="value" [style.opacity]="opacity" (keyup)="reload()">
+</div>

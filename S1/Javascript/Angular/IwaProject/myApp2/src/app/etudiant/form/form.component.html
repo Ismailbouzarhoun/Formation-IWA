@@ -1,0 +1,18 @@
+<button id="fermer" (click)="fermer()" type="button" class="btn btn-danger">X</button>
+<form [formGroup]="formEtudiant">
+    <h2>Ajouter un etudiant</h2>
+    <div class="col">
+      <div class="col">
+        <input formControlName="id" type="text" class="form-control" placeholder="Id">
+      </div>
+      <div class="col">
+        <input formControlName="nom" type="text" class="form-control" placeholder="Nom">
+      </div>
+      <div class="col">
+        <input formControlName="age" type="text" class="form-control" placeholder="Age">
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary" [disabled]="!formEtudiant.valid">Ajouter</button>
+      </div>
+    </div>
+  </form>

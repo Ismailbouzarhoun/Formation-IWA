@@ -1,0 +1,13 @@
+<form [formGroup]="formData">
+    <div class="col">
+      <div class="col">
+        <input type="text" formControlName="username" class="form-control" placeholder="username">
+      </div>
+      <div class="col">
+        <input type="password" formControlName="password" class="form-control" placeholder="password">
+      </div>
+      <div class="col">
+        <button type="submit" class="btn btn-primary" (click)="signin()">sign in</button>
+    </div>
+    </div>
+  </form>
